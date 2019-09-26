@@ -1,0 +1,9 @@
+﻿[Run Information]
+Version=CSPro 7.2
+AppType=Excel2CSPro
+
+[Files]
+Application=.\geocodes.xl2cs
+
+[Parameters]
+

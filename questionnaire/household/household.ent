@@ -1,0 +1,30 @@
+﻿[CSPro Application]
+Version=CSPro 7.2
+Label=HOUSEHOLD
+Name=HOUSEHOLD
+AppType=DataEntry
+OperatorID=No
+CAPI=Yes
+CAPIFont1=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont2=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont1Color=0
+CAPIFont2Color=16711680
+CreateListing=No
+CreateLog=No
+ShowErrorMessageNumbers=No
+ComboBoxShowOnlyDiscreteValues=Yes
+ParadataCollection=AllEvents
+ParadataDeviceStateMinutes=5
+[External Dictionaries]
+File=..\dictionaries\geocodes.dcf
+[AppCode]
+File=.\household.ent.apc
+[Message]
+File=.\household.ent.mgf
+[Help]
+File=.\household.ent.qsf
+[Forms]
+File=.\household.fmf
+[Dictionary Types]
+Dict-Type=..\dictionaries\household.dcf,Input,.\household.fmf
+Dict-Type=..\dictionaries\geocodes.dcf,External

@@ -1,0 +1,15 @@
+﻿Excel=.\geocodes.xlsx
+InputDict=..\dictionaries\geocodes.dcf
+OutputData=..\data\geocodes.csdb
+StartingRow=2
+CaseManagement=CreateNewFile
+RunOnlyIfNewer=No
+
+Mapping=GEOCODES_REC;@1;Geocodes
+Mapping=GEOCODES_REC.GEOCODE_REGION_CODE;@1
+Mapping=GEOCODES_REC.GEOCODE_DIVISION_CODE;@2
+Mapping=GEOCODES_REC.GEOCODE_STATE_CODE;@3
+Mapping=GEOCODES_REC.GEOCODE_REGION_LABEL;@4
+Mapping=GEOCODES_REC.GEOCODE_DIVISION_LABEL;@5
+Mapping=GEOCODES_REC.GEOCODE_STATE_LABEL;@6
+Mapping=GEOCODE_DUMMY;@7

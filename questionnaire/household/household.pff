@@ -1,0 +1,17 @@
+﻿[Run Information]
+Version=CSPro 7.2
+AppType=Entry
+
+[DataEntryInit]
+Interactive=Ask
+
+[Files]
+Application=.\household.ent
+InputData=..\data\household.csdb|CSPRODB
+Paradata=.\household.cslog
+
+[ExternalFiles]
+GEOCODES_DICT=..\data\geocodes.csdb|CSPRODB
+
+[Parameters]
+

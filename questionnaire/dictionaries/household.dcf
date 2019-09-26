@@ -1,0 +1,83 @@
+﻿[Dictionary]
+Version=CSPro 7.2
+Label=household
+Name=HOUSEHOLD_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=Yes
+DecimalChar=Yes
+
+[Level]
+Label=household Level
+Name=HOUSEHOLD_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Region code
+Name=REGION_CODE
+Start=2
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=Region code
+Name=REGION_CODE_VS1
+Value=1:4;Region
+
+[Item]
+Label=Division code
+Name=DIVISION_CODE
+Start=3
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=Division code
+Name=DIVISION_CODE_VS1
+Value=1:3;Division
+
+[Item]
+Label=State code
+Name=STATE_CODE
+Start=4
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=State code
+Name=STATE_CODE_VS1
+Value=1:9;State
+
+[Item]
+Label=Household serializer
+Name=HOUSEHOLD_SERIALIZER
+Start=5
+Len=4
+ZeroFill=Yes
+
+[ValueSet]
+Label=Household serializer
+Name=HOUSEHOLD_SERIALIZER_VS1
+Value=1:9999;Household
+
+[Record]
+Label=household Record
+Name=HOUSEHOLD_REC
+RecordTypeValue='1'
+RecordLen=9
+
+[Item]
+Label=Interview status
+Name=INTERVIEW_STATUS
+Start=9
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=Interview status
+Name=INTERVIEW_STATUS_VS1
+Value=1;Complete
+Value=2;Refused
+Value=3;Partial
